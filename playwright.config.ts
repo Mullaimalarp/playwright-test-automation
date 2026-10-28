@@ -1,3 +1,4 @@
+declare const process: { env: Record<string, string | undefined> };
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({

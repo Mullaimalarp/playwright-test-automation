@@ -2,6 +2,7 @@
     "compilerOptions":{
         "target": "ES2022",
         "module": "nodenext",
+        "types":["node", "@playwright/test"],
         "moduleResolution": "nodenext",
         "strict": true,
         "esModuleInterop": true,
