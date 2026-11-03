@@ -29,10 +29,19 @@ The project includes automation examples covering:
 
 ```text
 playwright-test-automation/
-|-- tests/                 # Playwright automated test cases
-|-- playwright.config.ts   # Playwright configuration
+|-- .github/               # GitHub configuration and workflows
+|-- fixtures/              # Reusable Playwright fixtures
+|-- pages/                 # Page Object Model classes
+|-- test-data/             # Test data used by automated tests
+|-- tests/                 # Playwright UI and API test cases
+|-- .gitignore             # Files and folders excluded from Git
+|-- LICENSE                # Project license
+|-- README.md              # Project documentation
+|-- package-lock.json      # Locked dependency versions
 |-- package.json           # Project dependencies and scripts
-`-- README.md              # Project documentation
+|-- playwright.config.ts   # Playwright configuration
+|-- testoutput.txt         # Test execution output
+`-- tsconfig.json          # TypeScript configuration
 ```
 
 ## Installation
